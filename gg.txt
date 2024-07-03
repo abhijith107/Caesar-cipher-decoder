@@ -1,0 +1,11 @@
+Steps for designing and using a Caesar cipher
+
+Choose a value to shift the alphabet by.
+
+Make a table where the top row contains letters in standard alphabetical order, and the bottom row is the new shifted alphabet.
+
+Encode the message by exchanging each letter in the message with the equivalent shifted letter.
+
+Make sure that the message’s intended recipient knows the shifting scheme you used to encode the message so they can decode it.
+
+To decrypt a message encoded with a Caesar cipher, simply take the value of 26 minus the shift value, and apply that new value to shift the encoded message back to its original form.
